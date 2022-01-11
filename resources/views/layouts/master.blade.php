@@ -9,11 +9,11 @@
     <meta name="description" content="#">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@section('title') 404 @show | Redelijk Reisbureau</title>
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
 </head>
 <body class="bg-black">
-    <header>
+    <header class="text-white">
         @section('header')
             404
         @show
