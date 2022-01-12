@@ -15,7 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 //Routes
 Route::get('/', 'App\Http\Controllers\HomeController@index')->name('home');
-Route::get('/admin', 'App\Http\Controllers\AdminController@index')->name('admin');
+
+//Admin
+Route::prefix('/admin')->middleware('auth')->group(function(){
+    Route::get('/cms', 'App\Http\Controllers\AdminController@index')->name('cms');
+});
 
 //Tests and examples
 Route::get('/test', function () {
@@ -24,3 +28,7 @@ Route::get('/test', function () {
 //Route::get('/', function () {
 //    return view('home');
 //})->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
