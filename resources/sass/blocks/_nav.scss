@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    align-items: center;
+    .img-holder{
+        img{
+            height:50px;
+        }
+    }
+    .nav-menu{
+        height:50px;
+        ul{
+            height:50px;
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+
+            li{
+                padding:10px 20px;
+                background:#eee;
+                border-left:1px solid #aaa;
+                border-top:1px solid #aaa;
+
+                &:nth-last-child(4){
+                    border-right:1px solid #aaa;
+                }
+            }
+        }
+    }
+}

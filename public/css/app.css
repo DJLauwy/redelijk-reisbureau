@@ -11286,9 +11286,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  padding: 50px;
-}
 body header {
-  background: #0d6efd;
+  padding: 120px !important;
+  background-position: center;
+  background-size: cover;
+}
+body header h1, body header .h1 {
+  font-size: 50px;
+  text-shadow: #444 3px 3px 10px;
+}
+body header h3, body header .h3 {
+  font-size: 25px;
+  text-shadow: #4445 2px 2px 5px;
+}
+body nav {
+  display: flex;
+  align-items: center;
+}
+body nav .img-holder img {
+  height: 50px;
+}
+body nav .nav-menu {
+  height: 50px;
+}
+body nav .nav-menu ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+body nav .nav-menu ul li {
+  padding: 10px 20px;
+  background: #eee;
+  border-left: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+}
+body nav .nav-menu ul li:nth-last-child(4) {
+  border-right: 1px solid #aaa;
+}
+
+.standard {
+  max-width: 1920px;
+  margin: auto;
+  padding: 25px 120px;
 }
