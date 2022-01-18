@@ -1,0 +1,13 @@
+.block-holder{
+    padding:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .block{
+        margin:25px;
+        border-radius: 5px;
+        border:1px solid #000;
+        width:500px;
+    }
+}

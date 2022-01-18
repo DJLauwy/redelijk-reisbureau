@@ -1,13 +1,24 @@
 nav{
     display: flex;
     align-items: center;
+    background-color:$blue;
+    position: relative;
+    padding-top:25px;
+    padding-left:120px;
+    padding-right:120px;
+    padding-bottom:0 !important;
     .img-holder{
+        position: absolute;
+        left:120px;
+        top:11px;
         img{
             height:50px;
         }
     }
     .nav-menu{
         height:50px;
+        margin-left:50px;
+        margin-bottom:-3px;
         ul{
             height:50px;
             display: flex;
@@ -19,9 +30,21 @@ nav{
                 background:#eee;
                 border-left:1px solid #aaa;
                 border-top:1px solid #aaa;
+                border-right:1px solid #aaa;
+                font-weight: bold;
+                margin-left:-1px;
+                //
+                //&:last-child{
+                //    border-right:1px solid #aaa;
+                //}
+                &:hover{
+                    padding:15px 20px;
+                    margin-bottom:10px;
+                }
 
-                &:nth-last-child(4){
-                    border-right:1px solid #aaa;
+                a{
+                    text-decoration: none;
+                    color:#000;
                 }
             }
         }

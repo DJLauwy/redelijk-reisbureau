@@ -11302,12 +11302,25 @@ body header h3, body header .h3 {
 body nav {
   display: flex;
   align-items: center;
+  background-color: #0d6efd;
+  position: relative;
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 0 !important;
+}
+body nav .img-holder {
+  position: absolute;
+  left: 120px;
+  top: 11px;
 }
 body nav .img-holder img {
   height: 50px;
 }
 body nav .nav-menu {
   height: 50px;
+  margin-left: 50px;
+  margin-bottom: -3px;
 }
 body nav .nav-menu ul {
   height: 50px;
@@ -11320,9 +11333,44 @@ body nav .nav-menu ul li {
   background: #eee;
   border-left: 1px solid #aaa;
   border-top: 1px solid #aaa;
-}
-body nav .nav-menu ul li:nth-last-child(4) {
   border-right: 1px solid #aaa;
+  font-weight: bold;
+  margin-left: -1px;
+}
+body nav .nav-menu ul li:hover {
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+body nav .nav-menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+body footer {
+  background: #0d6efd;
+}
+body footer .sections {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .sections .section {
+  border: 1px solid #000;
+  width: 25%;
+}
+body footer .copyright p {
+  padding: 0;
+  margin: 0;
+}
+body .block-holder {
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+body .block-holder .block {
+  margin: 25px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  width: 500px;
 }
 
 .standard {

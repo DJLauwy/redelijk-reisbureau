@@ -14,31 +14,14 @@
 </head>
 <body class="bg-white">
     @include('layouts.blocks.header')
+    @include('layouts.blocks.nav')
 
-    <nav class="standard">
-        <div class="img-holder">
-            <img src="{{ asset('img/RedelijkReisbureau_logo.png') }}" alt="RR Logo">
-        </div>
-        <div class="nav-menu">
-            @section('nav')
-                <ul>
-                    <li>Home</li>
-                    <li>TICKETS</li>
-                    <li>Over ons</li>
-                    <li>Contact</li>
-                </ul>
-            @show
-        </div>
-    </nav>
     <main>
         @yield('content')
     </main>
     <article></article>
     <aside></aside>
-    <footer>
-        @section('footer')
-            Voet
-        @show
-    </footer>
+
+    @include('layouts.blocks.footer')
 </body>
 </html>
