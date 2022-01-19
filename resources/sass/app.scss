@@ -14,5 +14,17 @@
 .standard{
     max-width: 1920px;
     margin:auto;
-    padding:25px 120px;
+    padding:25px 300px;
+}
+
+.btn{
+    a{
+        background-color:$blue;
+        border-radius:3px;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        padding:5px 20px;
+        font-size:25px;
+    }
 }

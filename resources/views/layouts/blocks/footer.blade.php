@@ -2,13 +2,26 @@
     @section('footer')
         <div class="sections">
             <div class="section s1">
-                <p>Hallo</p>
+                <h4>Sitemap</h4>
+                <p>Home</p>
+                <p>TICKETS</p>
+                <p>Over ons</p>
+                <p>Contact</p>
             </div>
             <div class="section s2">
-                <p>oke</p>
+                <h4>Populaire bestemmingen</h4>
+                <p>Amsterdam</p>
+                <p>Dubai</p>
+                <p>New York</p>
+                <p>Barcelona</p>
+                <p>Innsbruck</p>
+                <p>Ankara</p>
             </div>
             <div class="section s3">
-                <p>Doei</p>
+                <h4>Contact</h4>
+                <p>Vlieglaan 21b</p>
+                <p>0900 SM, Alblasserdam</p>
+                <p>+31 6 40289392</p>
             </div>
         </div>
     @show

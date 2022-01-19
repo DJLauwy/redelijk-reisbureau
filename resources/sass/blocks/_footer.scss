@@ -1,13 +1,23 @@
 footer{
     background:$blue;
+    color:white;
 
     .sections{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 25px;
 
         .section{
-            border:1px solid #000;
             width:25%;
+
+            h4{
+                font-weight: bold;
+                padding-bottom:5px;
+            }
+            p{
+                margin:2px 0;
+                padding:0;
+            }
         }
     }
     .copyright{

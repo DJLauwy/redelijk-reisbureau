@@ -19,8 +19,6 @@
     <main>
         @yield('content')
     </main>
-    <article></article>
-    <aside></aside>
 
     @include('layouts.blocks.footer')
 </body>
