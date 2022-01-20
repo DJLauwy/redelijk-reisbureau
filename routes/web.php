@@ -25,14 +25,11 @@ Route::prefix('/admin')->middleware('auth')->group(function(){
 Route::get('/test', function () {
     return 'Dit is een test';
 });
+
 //Route::get('/', function () {
 //    return view('home');
 //})->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//
+//Auth::routes();
+//
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
