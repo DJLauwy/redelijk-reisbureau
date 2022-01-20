@@ -95,7 +95,7 @@
                 <div class="heading">
                     <img src="{{ asset('/img/innsbruck.jpg') }}" alt="">
                     <div class="title">
-                        <h3>Barcelona</h3>
+                        <h3>Innsbruck</h3>
                     </div>
                     <div class="text">
                         <p>We weten allemaal dat jij geen zin hebt om 10 uur lang in de auto of bus te zitten naar Oostenrijk. Maar je wilt persé met je pappie's zuurverdiende centjes skieën met de gang. Prima, maar jank dan alsjeblieft nooit meer over hoe slecht het gaat met het milieu.</p>
